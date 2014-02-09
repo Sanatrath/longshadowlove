@@ -93,4 +93,5 @@ margin-bottom: 20px;
 .admin-bar #sidebar {padding-top: 46px;}
 .admin-bar #menu-mobile-centered #menu-button {top: 25px;}
 .admin-bar #menu-mobile-sidebar #menu-button {top: 71px;}
+#name img{width:110px!important; height:110px!important;}
 }
