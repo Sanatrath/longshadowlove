@@ -1,6 +1,19 @@
+/* 
+
+Mediaqueries Contents: 
+
+01. Global
+02. Notebook
+03. Tablet
+04. Mobile
+05. WP Admin Bar
+
+*/
+
 /* ----------------------------------------------------------------------------------------------------- */
-/* Global Responsive Styles */
+/* 01. Global Responsive Styles */
 /* ----------------------------------------------------------------------------------------------------- */
+
 #centered {
 padding-top: 50px;
 padding-bottom: 50px;	
@@ -24,7 +37,7 @@ margin: 0 auto;
 }
 
 /* ----------------------------------------------------------------------------------------------------- */
-/* Notebook Device Styles */
+/* 02. Notebook Device Styles */
 /* ----------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 1280px) {
@@ -59,17 +72,142 @@ margin-bottom: 55px;
 margin-bottom: 20px;	
 }
   
-/* End of Media Query */
+/* End of Notebook Mediaqueries */
 }
 
 /* ----------------------------------------------------------------------------------------------------- */
-/* Tablet Device Styles */
+/* 03. Tablet Device Styles */
 /* ----------------------------------------------------------------------------------------------------- */
 
-/* More mediaqueries available in the premium version of East Java */
+@media screen and (max-width: 720px) {
+
+/* Font Sizes */
+#name {
+font-size: 60px;
+line-height: 50px;
+letter-spacing: -3px;
+}
+#description {
+font-size: 28px;
+line-height: 32px;
+font-weight: 300;
+}	
+
+/* Spacing */
+#centered {
+padding-top: 25px;
+padding-bottom: 25px;	
+}
+#logo {
+margin-bottom: 35px;	
+}
+#name {
+margin-bottom: 30px;
+}
+#description {
+margin-bottom: 55px;
+}
+#button {
+margin-bottom: 20px;	
+}
+  
+/* End of Tablet Mediaqueries */
+}
+
 
 /* ----------------------------------------------------------------------------------------------------- */
-/* WP Admin Bar Mediaqeuries when logged in */
+/* 04. Mobile Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 500px) {
+
+/* Containers */
+body {}
+#content-container {
+overflow-x: hidden; 
+overflow-y: auto;
+}	
+#logo,
+#name,
+#description,
+#button {
+max-width: 90%;
+}
+/* Mobile Navigation */
+#header {display: none;}
+#menu-mobile-sidebar {
+display: block; 
+width: 24px; 
+height: 15px; 
+margin: 0 0 35px 0;
+}   
+#menu-mobile-sidebar #menu-button {
+top: 25px;
+left: 25px;
+width: 24px;	
+}
+#menu-mobile-centered {
+display: block; 
+width: 24px; 
+height: 15px; 
+margin: 0 0 25px 0;
+}
+#menu-mobile-centered #menu-button {
+top: 25px;
+left: 25px;
+width: 24px;	
+}
+#menu-mobile-sidebar svg,
+#menu-mobile-centered svg {
+width: 24px; 
+height: auto;	
+}
+
+/* Sidebar */
+#sidebar-inner {
+padding: 22px 25px 25px 25px;
+}
+#sidebar-inner .widget {
+display: block;	
+padding-bottom: 34px;
+}
+#sidebar-inner .social {
+padding-bottom: 34px;
+}
+/* Font Sizes */
+#name {
+font-size: 40px;
+line-height: 40px;
+letter-spacing: -2px;
+}
+#description {
+font-size: 22px;
+line-height: 24px;
+}
+
+/* Spacing */
+#centered {
+padding-top: 20px;
+padding-bottom: 20px;	
+}
+#logo {
+margin-bottom: 35px;	
+}
+#name {
+margin-bottom: 30px;
+}
+#description {
+margin-bottom: 55px;
+}
+#button {
+margin-bottom: 50px;	
+}
+
+/* End of Mobile Mediaqueries */
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 05. WP Admin Bar Mediaqeuries when logged in */
 /* ----------------------------------------------------------------------------------------------------- */
 
 .admin-bar #wpadminbar {} /* Height 32px */
