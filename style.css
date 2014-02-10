@@ -94,7 +94,7 @@ letter-spacing: -2px;
 font-size: 30px;
 line-height: 36px;
 }
-#button .slideout-button {
+.button .slideout-button {
 font-size: 18px;
 line-height: 18px;
 }
@@ -161,12 +161,12 @@ color: #FFFFFF;
 border-bottom: 1px solid #FFFFFF;
 }
 /* Content Styles - Button */
-#button .slideout-button {
+.button .slideout-button {
 border-color: #DDDDDD;	
 color: #DDDDDD;
 }
 /* Content Styles - Button Hover */
-#button .slideout-button:hover {
+.button .slideout-button:hover {
 border-color: #FFFFFF;	
 color: #FFFFFF;
 }
@@ -320,7 +320,7 @@ margin-bottom: 55px;
 display: block;
 margin-bottom: 20px;	
 }
-#button .slideout-button {
+.button .slideout-button {
 border-width: 1px;
 border-style: solid;
 text-transform: uppercase;
@@ -328,7 +328,7 @@ padding: 10px 20px;
 cursor: pointer;
 display: inline-block;
 }	
-#button .slideout-button:hover {
+.button .slideout-button:hover {
 }
 #widget-center-area {
 }
