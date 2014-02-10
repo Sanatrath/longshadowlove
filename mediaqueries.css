@@ -203,8 +203,8 @@ margin-bottom: 55px;
 margin-bottom: 50px;	
 }
 #hola{
-	top: 25px;
-	right: 25px;
+	top: 25px!important;
+	right: 25px!important;
 }
 
 /* End of Mobile Mediaqueries */
