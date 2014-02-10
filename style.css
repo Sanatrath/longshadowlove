@@ -323,10 +323,11 @@ margin-bottom: 20px;
 .button .slideout-button {
 border-width: 1px;
 border-style: solid;
-text-transform: uppercase;
 padding: 10px 20px;
 cursor: pointer;
 display: inline-block;
+width: 100px;
+margin-right: 20px;
 }	
 .button .slideout-button:hover {
 }
