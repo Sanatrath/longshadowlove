@@ -202,6 +202,10 @@ margin-bottom: 55px;
 #button {
 margin-bottom: 50px;	
 }
+#hola{
+	top: 25px;
+	right: 25px;
+}
 
 /* End of Mobile Mediaqueries */
 }
