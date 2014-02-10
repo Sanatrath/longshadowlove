@@ -141,7 +141,7 @@ width: 24px;
 height: 15px; 
 margin: 0 0 35px 0;
 }   
-#menu-mobile-sidebar #menu-button {
+#menu-mobile-sidebar .menu-button {
 top: 25px;
 left: 25px;
 width: 24px;	
@@ -152,7 +152,7 @@ width: 24px;
 height: 15px; 
 margin: 0 0 25px 0;
 }
-#menu-mobile-centered #menu-button {
+#menu-mobile-centered .menu-button {
 top: 25px;
 left: 25px;
 width: 24px;	
@@ -214,14 +214,14 @@ margin-bottom: 50px;
 .admin-bar #main-container {top: -32px;}
 .admin-bar #content-container {top: 32px;}
 .admin-bar #sidebar {padding-top: 32px;}
-.admin-bar #header #menu-button {top: 82px;}
+.admin-bar #header .menu-button {top: 82px;}
 
 @media screen and (max-width: 782px) {
 .admin-bar #wpadminbar {} /* Height 46px */
 .admin-bar #main-container {top: -46px;} 
 .admin-bar #content-container {top: 46px;}
 .admin-bar #sidebar {padding-top: 46px;}
-.admin-bar #header #menu-button {top: 96px;}
+.admin-bar #header .menu-button {top: 96px;}
 }
 
 @media screen and (max-width: 600px) {
@@ -229,7 +229,7 @@ margin-bottom: 50px;
 .admin-bar #main-container {top: -46px;}
 .admin-bar #content-container {top: 46px;}
 .admin-bar #sidebar {padding-top: 46px;}
-.admin-bar #menu-mobile-centered #menu-button {top: 25px;}
-.admin-bar #menu-mobile-sidebar #menu-button {top: 71px;}
+.admin-bar #menu-mobile-centered .menu-button {top: 25px;}
+.admin-bar #menu-mobile-sidebar .menu-button {top: 71px;}
 #name img{width:110px!important; height:110px!important;}
 }

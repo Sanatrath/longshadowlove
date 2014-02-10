@@ -138,6 +138,7 @@ background-color: #FFFFFF;
 /* Global Styles - Big Image Background */
 #content-container {
 background-color: #F8F8F8;
+background-image: url('bg2.jpg');
 }
 /* Global Styles - Slide Out SideBar/Menu Icon */
 #header svg ,
@@ -223,7 +224,7 @@ color: #CCCCCC;
 display: none;
 }
 /* Header menu button */
-#menu-button {
+.menu-button {
 position: absolute;
 top: 50px;
 left: 50px;
@@ -399,7 +400,7 @@ padding-bottom: 30px;
 /* 09. CSS3 Transitions */
 /* ------------------------------------------------ */
 
-/* Center Content Fade In */
+/* Center Content Fade In */    	 
 #centered  {
     -webkit-animation: fadein 1s; /* Safari and Chrome */
        -moz-animation: fadein 1s; /* Firefox */
@@ -407,6 +408,7 @@ padding-bottom: 30px;
          -o-animation: fadein 1s; /* Opera */
             animation: fadein 1s;
 }
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
